@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="hello_world" location="C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world" platform="C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world/export/lab4_hello_world/lab4_hello_world.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="hello_world_system" sysConfig="lab4_hello_world" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="d0bf64063ef02e433ff9e043849de910">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2047614524">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.925489723" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

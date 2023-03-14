@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2.1 (64-bit)
+# SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
+# IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
+# Start of session at: Mon Mar 13 14:57:50 2023
+# Process ID: 81860
+# Current directory: C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world.runs/impl_1\vivado.jou
+# Running On: DESKTOP-2VAEH22, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 8, Host memory: 34172 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

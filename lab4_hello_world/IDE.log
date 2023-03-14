@@ -1,0 +1,69 @@
+15:12:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\MSI\Documents\Eunsang\Code\Verilog\Test_zybo\lab4_hello_world\temp_xsdb_launch_script.tcl
+15:12:44 INFO  : Platform repository initialization has completed.
+15:12:44 INFO  : Registering command handlers for Vitis TCF services
+15:12:46 INFO  : XSCT server has started successfully.
+15:12:48 INFO  : plnx-install-location is set to ''
+15:12:48 INFO  : Successfully done setting XSCT server connection channel  
+15:12:48 INFO  : Successfully done query RDI_DATADIR 
+15:12:48 INFO  : Successfully done setting workspace for the tool. 
+15:15:45 INFO  : Result from executing command 'getProjects': lab4_hello_world
+15:15:45 INFO  : Result from executing command 'getPlatforms': 
+15:15:45 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:15:45 INFO  : Platform 'lab4_hello_world' is added to custom repositories.
+15:15:55 INFO  : Platform 'lab4_hello_world' is added to custom repositories.
+15:34:55 INFO  : Result from executing command 'getProjects': lab4_hello_world
+15:34:55 INFO  : Result from executing command 'getPlatforms': lab4_hello_world|C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world/export/lab4_hello_world/lab4_hello_world.xpfm
+15:34:55 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+15:29:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\MSI\Documents\Eunsang\Code\Verilog\Test_zybo\lab4_hello_world\temp_xsdb_launch_script.tcl
+15:29:19 INFO  : XSCT server has started successfully.
+15:29:19 INFO  : plnx-install-location is set to ''
+15:29:19 INFO  : Successfully done setting XSCT server connection channel  
+15:29:19 INFO  : Successfully done setting workspace for the tool. 
+15:29:20 INFO  : Platform repository initialization has completed.
+15:29:21 INFO  : Registering command handlers for Vitis TCF services
+15:29:23 INFO  : Successfully done query RDI_DATADIR 
+15:38:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:38:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B100CFA' is selected.
+15:38:26 INFO  : 'jtag frequency' command is executed.
+15:38:26 INFO  : Context for 'APU' is selected.
+15:38:26 INFO  : System reset is completed.
+15:38:29 INFO  : 'after 3000' command is executed.
+15:38:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B100CFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B100CFA-13722093-0"}' command is executed.
+15:38:31 INFO  : Device configured successfully with "C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world/_ide/bitstream/lab4_hello_world.bit"
+15:38:31 INFO  : Context for 'APU' is selected.
+15:38:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world/export/lab4_hello_world/hw/lab4_hello_world.xsa'.
+15:38:31 INFO  : 'configparams force-mem-access 1' command is executed.
+15:38:31 INFO  : Context for 'APU' is selected.
+15:38:31 INFO  : Sourcing of 'C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world/_ide/psinit/ps7_init.tcl' is done.
+15:38:32 INFO  : 'ps7_init' command is executed.
+15:38:32 INFO  : 'ps7_post_config' command is executed.
+15:38:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:38:32 INFO  : The application 'C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world/Debug/hello_world.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:38:33 INFO  : 'configparams force-mem-access 0' command is executed.
+15:38:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B100CFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B100CFA-13722093-0"}
+fpga -file C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world/_ide/bitstream/lab4_hello_world.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/lab4_hello_world/export/lab4_hello_world/hw/lab4_hello_world.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/MSI/Documents/Eunsang/Code/Verilog/Test_zybo/lab4_hello_world/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:38:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:38:33 INFO  : 'con' command is executed.
+15:38:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:38:33 INFO  : Launch script is exported to file 'C:\Users\MSI\Documents\Eunsang\Code\Verilog\Test_zybo\lab4_hello_world\hello_world_system\_ide\scripts\debugger_hello_world-default.tcl'
