@@ -1,0 +1,4 @@
+xvlog ./lab5_count.v ./tb_lab5_counter.v ./counter_toggle_out.v -d XSIM
+xelab tb_lab5_counter -debug wave -s tb_lab5_counter
+#xsim tb_lab5_matbi -R  # do not check waveform
+xsim tb_lab5_counter -gui -wdb simulate_xsim_tb_lab5_counter.wdb 
