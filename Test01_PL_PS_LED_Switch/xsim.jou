@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Mar 15 17:11:03 2023
+# Process ID: 4627
+# Current directory: /home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch
+# Command line: xsim -source {xsim.dir/tb_lab5_counter/xsim_script.tcl}
+# Log file: /home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/xsim.log
+# Journal file: /home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/xsim.jou
+# Running On: DESKTOP-2VAEH22, OS: Linux, CPU Frequency: 2208.000 MHz, CPU Physical cores: 1, Host memory: 34172 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/tb_lab5_counter/xsim_script.tcl
+add_wave {{/tb_lab5_counter/clk}} {{/tb_lab5_counter/reset_n}} {{/tb_lab5_counter/sw}} {{/tb_lab5_counter/led}} {{/tb_lab5_counter/i}} 
+run all
+close_sim

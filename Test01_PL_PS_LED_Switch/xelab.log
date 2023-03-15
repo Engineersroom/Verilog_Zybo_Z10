@@ -1,0 +1,14 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /home/eunsang/tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab tb_lab5_counter -debug wave -s tb_lab5_counter 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.counter_toggle_out
+Compiling module work.lab5_count
+Compiling module work.tb_lab5_counter
+Built simulation snapshot tb_lab5_counter

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/counter_toggle_out.v,1678863333,verilog,,,,counter_toggle_out,,,,XSIM,,,,
+/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/lab5_count.v,1678863333,verilog,,/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/tb_lab5_counter.v,,lab5_count,,,,XSIM,,,,
+/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/tb_lab5_counter.v,1678867855,verilog,,/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/counter_toggle_out.v,,tb_lab5_counter,,,,XSIM,,,,

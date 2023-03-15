@@ -1,0 +1,7 @@
+WARNING: [XSIM 43-3479] Unable to increase the current process stack size.
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/lab5_count.v" into library work
+INFO: [VRFC 10-311] analyzing module lab5_count
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/tb_lab5_counter.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_lab5_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/eunsang/tools/work/Test_FPGA/Verilog_Zybo_Z10/Test01_PL_PS_LED_Switch/counter_toggle_out.v" into library work
+INFO: [VRFC 10-311] analyzing module counter_toggle_out
