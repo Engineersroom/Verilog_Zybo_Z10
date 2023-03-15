@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module lab5_count_tb();
+module tb_lab5_counter();
 
 reg clk;
 reg reset_n;
